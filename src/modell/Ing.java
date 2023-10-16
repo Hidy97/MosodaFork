@@ -18,7 +18,8 @@ public class Ing extends Ruha{
 
     @Override
     public String toString() {
-        return "Ing{" + "szinIntenzitas=" + szinIntenzitas + '}';
+        String os = super.toString();
+        return os + "\n\tIng{" + "szinIntenzitas=" + szinIntenzitas + '}';
     }
     
 }
