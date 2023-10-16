@@ -15,6 +15,10 @@ public class Ing extends Ruha{
     public void setSzin(double szinIntenzitas) {
         this.szinIntenzitas = szinIntenzitas;
     }
-    
+
+    @Override
+    public String toString() {
+        return "Ing{" + "szinIntenzitas=" + szinIntenzitas + '}';
+    }
     
 }

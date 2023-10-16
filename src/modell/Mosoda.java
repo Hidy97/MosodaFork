@@ -68,6 +68,10 @@ public class Mosoda {
         }
         return ruhak;
     }
-    
+
+    @Override
+    public String toString() {
+        return "Mosoda{" + "ruhak=" + ruhak + ", ruhaDb=" + ruhaDb + '}';
+    }
     
 }
